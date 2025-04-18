@@ -15,7 +15,7 @@ The project tested here is called **SpeakOut**, a web-based guidance counseling 
 ## 🛠️ Tools & Tech Stack
 
 - **Cypress** for end-to-end testing
-- **JavaScript**
+- **JavaScript** test script
 - **Node.js**
 
 ---
@@ -62,7 +62,9 @@ Lalu di cypress/support/commands.js tambahkan:
 import 'cypress-file-upload';
 
 ## 🧪 Struktur Test
+cypress/e2e/ – Berisi file test .cy.js
+
 cypress/fixtures/ – Data dummy (misalnya JSON, foto, dll)
-cypress/integration/ – Berisi file test .cy.js
+
 cypress/support/ – Setup perintah custom dan konfigurasi umum
 
