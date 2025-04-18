@@ -1,0 +1,17 @@
+{
+  "name": "ta-sekolah-speak-out",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@mmisty/cypress-allure-adapter": "^3.2.3",
+    "cypress": "^14.2.1",
+    "cypress-file-upload": "^5.0.8"
+  }
+}
