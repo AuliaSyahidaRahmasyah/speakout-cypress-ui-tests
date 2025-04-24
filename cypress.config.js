@@ -35,6 +35,10 @@ module.exports = defineConfig({
       "cypress/e2e/03_Dashboard_Siswa/**/*.cy.js",
       "cypress/e2e/04_Aduan_Bermasalah_Guru/**/*.cy.js",
       "cypress/e2e/05_Aduan_Kehilangan_Guru/**/*.cy.js",
+      "cypress/e2e/06_Hukuman_Guru/**/*.cy.js",
+      "cypress/e2e/07_CeritaIn_Guru/**/*.cy.js",
+      "cypress/e2e/08_Edukasi_Guru/**/*.cy.js",
+      "cypress/e2e/09_Pengaturan_Guru/**/*.cy.js",
       // "cypress/support/Commands.js",
     ],
     setupNodeEvents(on, config) {
